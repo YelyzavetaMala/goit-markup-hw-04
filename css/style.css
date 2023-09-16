@@ -76,7 +76,6 @@ button {
 
 .header-nav {
     display: flex;
-    gap: 76px;
     align-items: center;
     flex-grow: 1;
 }
@@ -131,7 +130,6 @@ button {
 .nav-link:focus {
     color:#404BBF;
 }
-
 
 
 .address-header{
@@ -410,10 +408,11 @@ button {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 208px;
     font-weight: 500;
-    text-align: center;
     margin-bottom: 16px;
+    margin: 0 auto;
+    border-top: none;
+    padding: 0 120px;
 }
 
 .socials-list-icons {
@@ -421,6 +420,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 16px;
+    padding: 16px 0 0 120px ;
 }
 
 .footer-socials-link {
